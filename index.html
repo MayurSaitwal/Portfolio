@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mayur Gopal Saitwal — Aspiring Cloud &amp; DevOps Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Mayur Gopal Saitwal, a pre-final-year B.Tech Computer Engineering student building and automating cloud-native infrastructure with AWS, Docker, Kubernetes, Terraform and Jenkins."
+    />
+    <meta name="theme-color" content="#080D19" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mayur Gopal Saitwal — Aspiring Cloud & DevOps Engineer" />
+    <meta
+      property="og:description"
+      content="Cloud & DevOps projects: Amazon EKS, Terraform multi-environment infrastructure, Jenkins CI/CD and Kubernetes monitoring."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111827'/%3E%3Cpath d='M12 46V18l10 16 10-16v28M40 24c0-4 4-6 8-6s8 2 8 6-4 5-8 7-8 3-8 7 4 6 8 6 8-2 8-6' fill='none' stroke='%2338BDF8' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"
+    />
+    <script type="module" crossorigin src="./assets/index-_GJSyJFd.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Cqpc8L0G.css">
+  </head>
+
+  <body>
+    <!-- Icon sprite (decorative; each <use> is aria-hidden) -->
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+      <defs>
+        <symbol id="i-github" viewBox="0 0 16 16">
+          <path
+            fill="currentColor"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+          />
+        </symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9.75h4V21H3zM9.5 9.75h3.83v1.54h.05c.53-1 1.84-2.04 3.78-2.04 4.04 0 4.79 2.66 4.79 6.12V21h-4v-4.9c0-1.17-.02-2.67-1.63-2.67-1.63 0-1.88 1.27-1.88 2.59V21h-4z"
+          />
+        </symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="5" width="18" height="14" rx="2.5" />
+            <path d="m3.5 7.5 8.5 6 8.5-6" />
+          </g>
+        </symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"
+          />
+        </symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z" />
+            <circle cx="12" cy="10" r="2.5" />
+          </g>
+        </symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M7 17 17 7M8 7h9v9"
+          />
+        </symbol>
+        <symbol id="i-download" viewBox="0 0 24 24">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"
+          />
+        </symbol>
+        <symbol id="i-down" viewBox="0 0 24 24">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 5v14m0 0-6-6m6 6 6-6"
+          />
+        </symbol>
+      </defs>
+    </svg>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="progress" aria-hidden="true"></div>
+
+    <!-- ============ NAVIGATION ============ -->
+    <header class="site-header" id="top">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="Mayur Saitwal — home">
+          <span class="brand__mark" aria-hidden="true">MS</span>
+          <span class="brand__name">Mayur Saitwal</span>
+        </a>
+
+        <nav aria-label="Primary">
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="menu"
+            aria-label="Toggle navigation menu"
+          >
+            <span class="nav-toggle__bars" aria-hidden="true"></span>
+          </button>
+          <ul class="nav-menu" id="menu">
+            <li><a href="#about" data-nav>About</a></li>
+            <li><a href="#skills" data-nav>Skills</a></li>
+            <li><a href="#projects" data-nav>Projects</a></li>
+            <li><a href="#experience" data-nav>Experience</a></li>
+            <li><a href="#education" data-nav>Education</a></li>
+            <li><a href="#contact" data-nav>Contact</a></li>
+            <li class="nav-menu__cta">
+              <a class="btn btn-ghost btn-sm" href="Mayur_Saitwal_Resume.pdf" target="_blank" rel="noopener">
+                Resume
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow hero-anim" style="--d: 0ms">
+              <picture>
+                <source srcset="mayur.webp" type="image/webp" />
+                <img class="eyebrow__avatar" src="./mayur.jpg" width="40" height="40" alt="" />
+              </picture>
+              <span class="eyebrow__dot" aria-hidden="true"></span>
+              Seeking Cloud &amp; DevOps internships
+            </p>
+
+            <h1 id="hero-title" class="hero__name hero-anim" style="--d: 80ms">
+              Mayur Gopal <span class="grad-text">Saitwal</span>
+            </h1>
+
+            <p class="hero__role hero-anim" style="--d: 160ms">
+              <span class="typed" id="typed" data-text="Aspiring Cloud &amp; DevOps Engineer">
+                <span class="typed__ghost">Aspiring Cloud &amp; DevOps Engineer</span>
+                <span class="typed__live" aria-hidden="true"></span>
+                <span class="visually-hidden">Aspiring Cloud &amp; DevOps Engineer</span>
+              </span>
+            </p>
+
+            <p class="hero__tagline hero-anim" style="--d: 240ms">
+              I build, automate, and monitor cloud-native infrastructure.
+            </p>
+
+            <p class="hero__lead hero-anim" style="--d: 320ms">
+              B.Tech Computer Engineering student working hands-on with AWS, Docker, Kubernetes, Terraform and
+              Jenkins to build, automate, deploy and monitor cloud-native applications.
+            </p>
+
+            <div class="hero__cta hero-anim" style="--d: 400ms">
+              <a class="btn btn-primary" href="#projects">
+                Explore My Projects
+                <svg class="icon" aria-hidden="true"><use href="#i-down" /></svg>
+              </a>
+              <a class="btn btn-ghost" href="Mayur_Saitwal_Resume.pdf" target="_blank" rel="noopener">
+                View Resume
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg>
+              </a>
+            </div>
+
+            <ul class="socials hero-anim" style="--d: 480ms" aria-label="Social links">
+              <li>
+                <a class="icon-btn" href="https://github.com/MayurSaitwal" target="_blank" rel="noopener" aria-label="GitHub profile (opens in a new tab)">
+                  <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon-btn" href="https://linkedin.com/in/mayursaitwal" target="_blank" rel="noopener" aria-label="LinkedIn profile (opens in a new tab)">
+                  <svg class="icon" aria-hidden="true"><use href="#i-linkedin" /></svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon-btn" href="mailto:mayurgsaitwal@gmail.com" aria-label="Send an email">
+                  <svg class="icon" aria-hidden="true"><use href="#i-mail" /></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 3D scene: static SVG fallback is shown until (and unless) WebGL loads -->
+          <div class="hero-visual hero-anim" id="hero-visual" style="--d: 200ms" aria-hidden="true">
+            <div class="hv-glow"></div>
+            <svg class="hv-fallback" viewBox="0 0 400 400" focusable="false">
+              <g class="fb-links">
+                <line x1="200" y1="200" x2="320" y2="120" />
+                <line x1="200" y1="200" x2="95" y2="105" />
+                <line x1="200" y1="200" x2="85" y2="290" />
+                <line x1="200" y1="200" x2="300" y2="315" />
+                <line x1="200" y1="200" x2="205" y2="55" />
+                <polyline points="320,120 205,55 95,105 85,290 300,315 320,120" />
+              </g>
+              <circle class="fb-ring" cx="200" cy="200" r="86" />
+              <circle class="fb-ring fb-ring--2" cx="200" cy="200" r="124" />
+              <polygon class="fb-core" points="200,150 243,175 243,225 200,250 157,225 157,175" />
+              <g class="fb-nodes">
+                <rect x="308" y="108" width="24" height="24" rx="4" />
+                <rect x="83" y="93" width="24" height="24" rx="12" />
+                <rect x="73" y="278" width="24" height="24" rx="4" />
+                <rect x="288" y="303" width="24" height="24" rx="12" />
+                <rect x="193" y="43" width="24" height="24" rx="4" />
+              </g>
+            </svg>
+            <canvas id="hero-canvas"></canvas>
+            <div class="hv-labels"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container about">
+          <div class="about__photo reveal">
+            <figure class="portrait tilt" data-tilt="6">
+              <div class="portrait__frame">
+                <picture>
+                  <source srcset="mayur.webp" type="image/webp" />
+                  <img
+                    src="./mayur.jpg"
+                    width="720"
+                    height="720"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Portrait of Mayur Gopal Saitwal wearing a black blazer and white shirt"
+                  />
+                </picture>
+                <span class="portrait__shine" aria-hidden="true"></span>
+              </div>
+              <figcaption class="portrait__tag">
+                <svg class="icon" aria-hidden="true"><use href="#i-pin" /></svg>
+                Pune, Maharashtra, India
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="about__body">
+            <header class="section-head reveal">
+              <p class="section-eyebrow">01 — About</p>
+              <h2 id="about-title">Building reliable infrastructure, one pipeline at a time</h2>
+            </header>
+
+            <div class="prose reveal" style="--d: 80ms">
+              <p>
+                I'm a pre-final-year B.Tech Computer Engineering student at AISSMS Institute of Information
+                Technology, Pune, focused on Cloud and DevOps engineering. I've built hands-on projects with AWS,
+                Docker, Kubernetes, Terraform and Jenkins — from deploying a three-tier app on Amazon EKS to
+                automating CI/CD and monitoring a cluster with Prometheus and Grafana.
+              </p>
+              <p>
+                I enjoy making infrastructure repeatable and reliable, and I'm curious about how AI can make DevOps
+                workflows smarter. I'm looking for internships and early-career roles where I can learn from real
+                production systems while contributing to cloud and automation work.
+              </p>
+            </div>
+
+            <ul class="stats reveal" style="--d: 160ms" aria-label="Highlights">
+              <li class="stat">
+                <span class="stat__value">8.00</span>
+                <span class="stat__label">CGPA (B.Tech, out of 10)</span>
+              </li>
+              <li class="stat">
+                <span class="stat__value">3</span>
+                <span class="stat__label">Cloud &amp; DevOps projects</span>
+              </li>
+              <li class="stat">
+                <span class="stat__value">30+</span>
+                <span class="stat__label">AWS community members led</span>
+              </li>
+              <li class="stat">
+                <span class="stat__value">10+</span>
+                <span class="stat__label">Hackathons participated</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-eyebrow">02 — Skills</p>
+            <h2 id="skills-title">Technical toolkit</h2>
+            <p class="section-lead">Tools I've used hands-on in my projects, grouped by what they're for.</p>
+          </header>
+
+          <ul class="skills-grid">
+            <li class="reveal" style="--d: 0ms">
+              <article class="card tilt skill-card" data-tilt="4">
+                <h3><span class="skill-card__no">01</span> Cloud (AWS)</h3>
+                <ul class="chips">
+                  <li class="chip">EC2</li>
+                  <li class="chip">S3</li>
+                  <li class="chip">VPC</li>
+                  <li class="chip">IAM</li>
+                  <li class="chip">EBS</li>
+                  <li class="chip">EKS</li>
+                  <li class="chip">ECR</li>
+                  <li class="chip">Application Load Balancer</li>
+                </ul>
+              </article>
+            </li>
+            <li class="reveal" style="--d: 70ms">
+              <article class="card tilt skill-card" data-tilt="4">
+                <h3><span class="skill-card__no">02</span> Containers &amp; Orchestration</h3>
+                <ul class="chips">
+                  <li class="chip">Docker</li>
+                  <li class="chip">Kubernetes</li>
+                  <li class="chip">Helm</li>
+                  <li class="chip">Kind</li>
+                  <li class="chip">Kubernetes Ingress</li>
+                </ul>
+              </article>
+            </li>
+            <li class="reveal" style="--d: 140ms">
+              <article class="card tilt skill-card" data-tilt="4">
+                <h3><span class="skill-card__no">03</span> Infrastructure as Code</h3>
+                <ul class="chips">
+                  <li class="chip">Terraform</li>
+                  <li class="chip">Modules</li>
+                  <li class="chip">Variables</li>
+                  <li class="chip">Outputs</li>
+                  <li class="chip">State</li>
+                  <li class="chip">Multi-environment setups</li>
+                </ul>
+              </article>
+            </li>
+            <li class="reveal" style="--d: 210ms">
+              <article class="card tilt skill-card" data-tilt="4">
+                <h3><span class="skill-card__no">04</span> CI/CD &amp; Automation</h3>
+                <ul class="chips">
+                  <li class="chip">Jenkins</li>
+                  <li class="chip">GitHub Actions</li>
+                  <li class="chip">GitHub Webhooks</li>
+                  <li class="chip">Docker Hub</li>
+                </ul>
+              </article>
+            </li>
+            <li class="reveal" style="--d: 0ms">
+              <article class="card tilt skill-card" data-tilt="4">
+                <h3><span class="skill-card__no">05</span> Monitoring &amp; Observability</h3>
+                <ul class="chips">
+                  <li class="chip">Prometheus</li>
+                  <li class="chip">Grafana</li>
+                </ul>
+              </article>
+            </li>
+            <li class="reveal" style="--d: 70ms">
+              <article class="card tilt skill-card" data-tilt="4">
+                <h3><span class="skill-card__no">06</span> Operating Systems &amp; Networking</h3>
+                <ul class="chips">
+                  <li class="chip">Linux Administration</li>
+                  <li class="chip">Networking Fundamentals</li>
+                </ul>
+              </article>
+            </li>
+            <li class="reveal" style="--d: 140ms">
+              <article class="card tilt skill-card" data-tilt="4">
+                <h3><span class="skill-card__no">07</span> Programming &amp; Scripting</h3>
+                <ul class="chips">
+                  <li class="chip">Python</li>
+                  <li class="chip">Bash / Shell</li>
+                  <li class="chip">JavaScript</li>
+                </ul>
+              </article>
+            </li>
+            <li class="reveal" style="--d: 210ms">
+              <article class="card tilt skill-card" data-tilt="4">
+                <h3><span class="skill-card__no">08</span> Additional Technologies</h3>
+                <ul class="chips">
+                  <li class="chip">Git</li>
+                  <li class="chip">GitHub</li>
+                  <li class="chip">MySQL</li>
+                  <li class="chip">MongoDB</li>
+                </ul>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-eyebrow">03 — Projects</p>
+            <h2 id="projects-title">Hands-on Cloud &amp; DevOps projects</h2>
+            <p class="section-lead">
+              Three projects covering Kubernetes on AWS, infrastructure as code, and automated delivery with
+              monitoring. Each links to its source on GitHub.
+            </p>
+          </header>
+
+          <ul class="projects-grid">
+            <!-- Project A -->
+            <li class="reveal" style="--d: 0ms">
+              <article class="card tilt project" data-tilt="5">
+                <div class="project__top">
+                  <span class="project__no" aria-hidden="true">01</span>
+                  <span class="project__kind">AWS · Kubernetes</span>
+                </div>
+                <h3>Three-Tier Application on AWS EKS</h3>
+                <p class="project__desc">
+                  A React, Node.js and MongoDB app containerized with Docker, stored in Amazon ECR and run on Amazon
+                  EKS with Deployments, Services, Secrets and a PV/PVC for MongoDB. The AWS Load Balancer Controller,
+                  installed with Helm and IRSA, exposes it through an Ingress-backed Application Load Balancer.
+                </p>
+                <ol class="flow" aria-label="Request path">
+                  <li>ALB</li>
+                  <li>Ingress</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>MongoDB</li>
+                </ol>
+                <p class="project__concepts">
+                  <strong>Demonstrates:</strong> container registries, Kubernetes workloads, persistent storage,
+                  least-privilege access with IRSA, ingress routing.
+                </p>
+                <ul class="chips chips--sm" aria-label="Technologies">
+                  <li class="chip">AWS EKS</li>
+                  <li class="chip">ECR</li>
+                  <li class="chip">ALB</li>
+                  <li class="chip">Helm</li>
+                  <li class="chip">Docker</li>
+                  <li class="chip">Kubernetes</li>
+                </ul>
+                <a
+                  class="project__link"
+                  href="https://github.com/MayurSaitwal/Three-Tier-Application-Kubernetes-Deployment-on-AWS-EKS"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+                  View Project
+                  <span class="visually-hidden">: Three-Tier Application on AWS EKS (opens in a new tab)</span>
+                  <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow" /></svg>
+                </a>
+              </article>
+            </li>
+
+            <!-- Project B -->
+            <li class="reveal" style="--d: 90ms">
+              <article class="card tilt project" data-tilt="5">
+                <div class="project__top">
+                  <span class="project__no" aria-hidden="true">02</span>
+                  <span class="project__kind">Infrastructure as Code</span>
+                </div>
+                <h3>Multi-Environment AWS Infrastructure with Terraform</h3>
+                <p class="project__desc">
+                  Replaces manual console work by provisioning isolated Dev, Staging and Prod environments on AWS
+                  from reusable Terraform code that defines EC2 instances and an S3 bucket. Each environment
+                  passes its own variables, and outputs print the values needed after deployment.
+                </p>
+                <ol class="flow" aria-label="Environments">
+                  <li>Terraform code</li>
+                  <li>dev</li>
+                  <li>stg</li>
+                  <li>prd</li>
+                </ol>
+                <p class="project__concepts">
+                  <strong>Demonstrates:</strong> modules, variables and outputs, provider version pinning,
+                  environment separation, the full init → plan → apply → destroy lifecycle.
+                </p>
+                <ul class="chips chips--sm" aria-label="Technologies">
+                  <li class="chip">Terraform</li>
+                  <li class="chip">AWS EC2</li>
+                  <li class="chip">AWS S3</li>
+                </ul>
+                <a
+                  class="project__link"
+                  href="https://github.com/MayurSaitwal/Multi-Environment-AWS-Infrastructure-with-Terraform"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+                  View Project
+                  <span class="visually-hidden">: Multi-Environment AWS Infrastructure with Terraform (opens in a new tab)</span>
+                  <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow" /></svg>
+                </a>
+              </article>
+            </li>
+
+            <!-- Project C -->
+            <li class="reveal" style="--d: 180ms">
+              <article class="card tilt project" data-tilt="5">
+                <div class="project__top">
+                  <span class="project__no" aria-hidden="true">03</span>
+                  <span class="project__kind">CI/CD · Observability</span>
+                </div>
+                <h3>End-to-End CI/CD Pipeline with Kubernetes Monitoring</h3>
+                <p class="project__desc">
+                  A Jenkins pipeline, triggered by GitHub webhooks, builds a Docker image, pushes it to Docker Hub,
+                  deploys a Flask and MySQL app to a Kind cluster and verifies the rollout. Prometheus and Grafana,
+                  installed with Helm in a dedicated monitoring namespace, give cluster-health dashboards.
+                </p>
+                <ol class="flow" aria-label="Delivery flow">
+                  <li>Git push</li>
+                  <li>Jenkins</li>
+                  <li>Docker Hub</li>
+                  <li>Kubernetes</li>
+                  <li>Grafana</li>
+                </ol>
+                <p class="project__concepts">
+                  <strong>Demonstrates:</strong> pipeline as code, webhook-triggered builds, an SSH-connected Jenkins
+                  agent, Kubernetes Secrets and PVCs, cluster monitoring.
+                </p>
+                <ul class="chips chips--sm" aria-label="Technologies">
+                  <li class="chip">Jenkins</li>
+                  <li class="chip">Docker</li>
+                  <li class="chip">Kubernetes</li>
+                  <li class="chip">Helm</li>
+                  <li class="chip">Prometheus</li>
+                  <li class="chip">Grafana</li>
+                </ul>
+                <a
+                  class="project__link"
+                  href="https://github.com/MayurSaitwal/End-To-End-Jenkins-CICD-With-Kubernetes-Monitoring"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+                  View Project
+                  <span class="visually-hidden">: End-to-End CI/CD Pipeline with Kubernetes Monitoring (opens in a new tab)</span>
+                  <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow" /></svg>
+                </a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-eyebrow">04 — Experience</p>
+            <h2 id="experience-title">Leadership &amp; community</h2>
+          </header>
+
+          <ol class="timeline">
+            <li class="timeline__item reveal">
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <article class="card timeline__card">
+                <div class="timeline__meta">
+                  <span class="timeline__date">July 2026 – Present</span>
+                  <span class="badge badge--live">Current</span>
+                </div>
+                <h3>Co-Lead, AWS Student Builder Group</h3>
+                <p class="timeline__org">AISSMS Institute of Information Technology, Pune</p>
+                <ul class="bullets">
+                  <li>
+                    Lead a student AWS and cloud community of 30+ members, driving peer learning through hands-on
+                    cloud sessions.
+                  </li>
+                  <li>
+                    Organize 5+ technical events end to end: topic selection, speaker coordination, scheduling,
+                    promotion, and on-the-day operations.
+                  </li>
+                </ul>
+              </article>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ EDUCATION & TRAINING ============ -->
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-eyebrow">05 — Education</p>
+            <h2 id="education-title">Education &amp; learning</h2>
+          </header>
+
+          <div class="edu-grid">
+            <div>
+              <h3 class="subhead reveal">Education</h3>
+              <ol class="timeline">
+                <li class="timeline__item reveal">
+                  <span class="timeline__dot" aria-hidden="true"></span>
+                  <article class="card timeline__card">
+                    <div class="timeline__meta">
+                      <span class="timeline__date">2024 – 2028 (expected)</span>
+                      <span class="badge">CGPA 8.00 / 10</span>
+                    </div>
+                    <h4>B.Tech in Computer Engineering</h4>
+                    <p class="timeline__org">AISSMS Institute of Information Technology, Pune</p>
+                    <p class="timeline__note">
+                      Coursework: Operating Systems, Computer Networks, Database Management Systems.
+                    </p>
+                  </article>
+                </li>
+                <li class="timeline__item reveal" style="--d: 70ms">
+                  <span class="timeline__dot" aria-hidden="true"></span>
+                  <article class="card timeline__card">
+                    <div class="timeline__meta">
+                      <span class="timeline__date">2024</span>
+                      <span class="badge">85%</span>
+                    </div>
+                    <h4>Higher Secondary Certificate (HSC)</h4>
+                    <p class="timeline__org">Vivekanand Pratishthan's Junior College, Jalgaon</p>
+                  </article>
+                </li>
+                <li class="timeline__item reveal" style="--d: 140ms">
+                  <span class="timeline__dot" aria-hidden="true"></span>
+                  <article class="card timeline__card">
+                    <div class="timeline__meta">
+                      <span class="timeline__date">2022</span>
+                      <span class="badge">86%</span>
+                    </div>
+                    <h4>Secondary School Certificate (SSC)</h4>
+                    <p class="timeline__org">Vivekanand Pratishthan English Medium School, Jalgaon</p>
+                  </article>
+                </li>
+              </ol>
+            </div>
+
+            <div>
+              <h3 class="subhead reveal">Training &amp; learning paths</h3>
+              <ul class="training">
+                <li class="reveal">
+                  <article class="card tilt training__card" data-tilt="4">
+                    <span class="badge badge--accent">Learning path</span>
+                    <h4>AWS Cloud Quest: Cloud Practitioner</h4>
+                    <p class="timeline__org">AWS Training</p>
+                  </article>
+                </li>
+                <li class="reveal" style="--d: 80ms">
+                  <article class="card tilt training__card" data-tilt="4">
+                    <span class="badge badge--accent">Training</span>
+                    <h4>Google Generative AI (GenAI)</h4>
+                    <p class="timeline__org">APAC Edition</p>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="section section--last" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact card reveal">
+            <p class="section-eyebrow">06 — Contact</p>
+            <h2 id="contact-title">Let's build something reliable</h2>
+            <p class="contact__lead">
+              I'm looking for Cloud and DevOps internships and entry-level opportunities. Email is the quickest way
+              to reach me.
+            </p>
+
+            <div class="contact__cta">
+              <a class="btn btn-primary" href="mailto:mayurgsaitwal@gmail.com">
+                <svg class="icon" aria-hidden="true"><use href="#i-mail" /></svg>
+                mayurgsaitwal@gmail.com
+              </a>
+              <a class="btn btn-ghost" href="https://linkedin.com/in/mayursaitwal" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-linkedin" /></svg>
+                LinkedIn
+                <span class="visually-hidden">(opens in a new tab)</span>
+              </a>
+              <a class="btn btn-ghost" href="https://github.com/MayurSaitwal" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+                GitHub
+                <span class="visually-hidden">(opens in a new tab)</span>
+              </a>
+            </div>
+
+            <ul class="contact__meta">
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="#i-pin" /></svg>
+                Pune, Maharashtra, India
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="#i-phone" /></svg>
+                <a href="tel:+918624911093">+91 86249 11093</a>
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="#i-download" /></svg>
+                <a href="Mayur_Saitwal_Resume.pdf" download>Download resume (PDF)</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__row">
+        <p>© 2026 Mayur Gopal Saitwal</p>
+        <p class="site-footer__stack">Built with Vite &amp; Three.js</p>
+        <a class="to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
